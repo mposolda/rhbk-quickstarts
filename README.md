@@ -1,8 +1,8 @@
-# <span>RHBK</span> Quickstarts
+# <span>Red Hat build of Keycloak</span> Quickstarts
 
-<span>Red Hat build of Keycloak (RHBK)</span> is an Open Source Identity and Access Management solution for modern Applications and Services.
+<span>Red Hat build of Keycloak</span> is an Open Source Identity and Access Management solution for modern Applications and Services.
 
-The quickstarts herein provided demonstrate securing applications with <span>RHBK</span> using different programming languages (and frameworks) 
+The quickstarts herein provided demonstrate securing applications with <span>Red Hat build of Keycloak</span> using different programming languages (and frameworks) 
 and how to extend the server capabilities through a set of Java-based [Service Provider Interfaces(SPI)](https://access.redhat.com/documentation/en-us/red_hat_build_of_keycloak/22.0/server_developer_guide/index). 
 They provide small, specific, working examples that can be used as a reference for your own project.
 
@@ -10,7 +10,7 @@ They are organized in this repository under different categories (or directories
 
 | Category  | Description                                                                         |
 |-----------|-------------------------------------------------------------------------------------|
-| extension | Examples about how to extend the server capabilities using some of the RHBK SPIs.   |
+| extension | Examples about how to extend the server capabilities using some of the Red Hat build of Keycloak SPIs.   |
 | jakarta   | Examples about how secure Jakarta Applications                                      |
 | js        | Examples about how to secure JavaScript Applications                                |
 | nodejs    | Examples about how to secure NodeJS Applications                                    |
@@ -23,7 +23,7 @@ For any missing programming language and framework, you might want to consider l
   * [Securing a Resource Server Application](https://quarkus.io/guides/security-oidc-bearer-token-authentication-tutorial)
 
 We are happy to accept contributions for any reference that demonstrates how to
-integrate RHBK with additional programming languages or frameworks.
+integrate Red Hat build of Keycloak with additional programming languages or frameworks.
 
 ## Building, Testing, and Running the Quickstarts
 
