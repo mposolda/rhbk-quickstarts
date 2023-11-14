@@ -9,8 +9,12 @@ if [[ $NEW_VERSION == "999.0.0-SNAPSHOT" ]]; then
   NPM_ADMIN_CLIENT="https://github.com/keycloak/keycloak/releases/download/nightly/keycloak-admin-client-999.0.0-SNAPSHOT.tgz"
   NPM_NODE_ADAPTER="https://github.com/keycloak/keycloak-nodejs-connect/releases/download/nightly/keycloak-nodejs-connect.tgz";
 else
-  NPM_ADMIN_CLIENT=$NEW_VERSION
-  NPM_NODE_ADAPTER=$NEW_VERSION
+  # Make only "26.0.5" from something like "26.0.5.redhat-00003"
+  arrIN=(${NEW_VERSION//\./ })
+  NEW_NPM_VERSION=${arrIN[0]}.${arrIN[1]}.${arrIN[2]}
+  echo "New NPM version $NEW_NPM_VERSION";
+  NPM_ADMIN_CLIENT=$NEW_NPM_VERSION
+  NPM_NODE_ADAPTER=$NEW_NPM_VERSION
 fi
 
 # JS quickstart
