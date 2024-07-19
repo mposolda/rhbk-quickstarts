@@ -21,7 +21,7 @@
 
     <groupId>org.keycloak.quickstarts</groupId>
     <artifactId>keycloak-quickstart-parent</artifactId>
-    <version>22.0.6.redhat-00002</version>
+    <version>24.0.5.redhat-00001</version>
     <packaging>pom</packaging>
     <name>Keycloak Quickstart: parent</name>
     <description>Parent</description>
@@ -36,7 +36,7 @@
 
     <properties>
         <version.keycloak>${project.version}</version.keycloak>
-        <quarkus.version>3.2.6.Final-redhat-00002</quarkus.version>
+        <quarkus.version>3.8.4.redhat-00002</quarkus.version>
 
         <servlet.api.30.version>1.0.2.Final</servlet.api.30.version>
         <jboss-jaxrs-api_2.1_spec>1.0.1.Final</jboss-jaxrs-api_2.1_spec>

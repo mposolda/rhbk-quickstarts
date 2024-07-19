@@ -3,7 +3,7 @@
 _Red Hat build of Keycloak_ is an Open Source Identity and Access Management solution for modern Applications and Services.
 
 The quickstarts herein provided demonstrate securing applications with _Red Hat build of Keycloak_ using different programming languages (and frameworks) 
-and how to extend the server capabilities through a set of Java-based [Service Provider Interfaces(SPI)](https://access.redhat.com/documentation/en-us/red_hat_build_of_keycloak/22.0/html-single/server_developer_guide/index). 
+and how to extend the server capabilities through a set of Java-based [Service Provider Interfaces(SPI)](https://access.redhat.com/documentation/en-us/red_hat_build_of_keycloak/24.0/html-single/server_developer_guide/index). 
 They provide small, specific, working examples that can be used as a reference for your own project.
 
 They are organized in this repository under different categories (or directories) as follows:
