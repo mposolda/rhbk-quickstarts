@@ -21,13 +21,13 @@ To compile and run this quickstart you will need:
 * JDK 17
 * Apache Maven 3.8.6
 * JBoss EAP 8
-* Red Hat build of Keycloak 22+
+* Red Hat build of Keycloak 24+
 
 Starting and Configuring the Red Hat build of Keycloak Server
 -------------------
 
 To start a _Red Hat build of Keycloak_ Server you can use OpenJDK on Bare Metal, _Red Hat build of Keycloak_ Operator or any other option described in
-[Red Hat build of Keycloak Getting Started guides]https://access.redhat.com/documentation/en-us/red_hat_build_of_keycloak/22.0/html-single/getting_started_guide/index.
+[Red Hat build of Keycloak Getting Started guides]https://access.redhat.com/documentation/en-us/red_hat_build_of_keycloak/24.0/html-single/getting_started_guide/index.
 
 For example when using Bare metal, you need to have Java 17 or later available. Then you can unzip _Red Hat build of Keycloak_ distribution and in the directory `bin` run this command:
 
@@ -40,13 +40,13 @@ You should be able to access your _Red Hat build of Keycloak_ server at http://l
 Log in as the admin user to access the _Red Hat build of Keycloak_ Administration Console. Username should be `admin` and password `admin`.
 
 Import the [realm configuration file](config/realm-import.json) to create a new realm called `quickstart`.
-or more details, see the _Red Hat build of Keycloak_ documentation about how to [create a new realm](https://access.redhat.com/documentation/en-us/red_hat_build_of_keycloak/22.0/html-single/server_administration_guide/index#proc-creating-a-realm_server_administration_guide).
+or more details, see the _Red Hat build of Keycloak_ documentation about how to [create a new realm](https://access.redhat.com/documentation/en-us/red_hat_build_of_keycloak/24.0/html-single/server_administration_guide/index#proc-creating-a-realm_server_administration_guide).
 
 Starting the JBoss EAP Server
 -------------------
 
 In order to deploy the example application, you need a JBoss EAP Server up and running. For more details, see the JBoss EAP documentation about how
-to [install the server](https://access.redhat.com/documentation/en-us/red_hat_jboss_enterprise_application_platform/8-beta/html-single/jboss_eap_installation_methods/index).
+to [install the server](https://docs.redhat.com/en/documentation/red_hat_jboss_enterprise_application_platform/8.0/html-single/red_hat_jboss_enterprise_application_platform_installation_methods/index).
 
 Make sure the server is accessible from `localhost` and listening on port `8080`.
 
@@ -150,5 +150,5 @@ You don't need JBoss EAP running because a temporary server is started during te
 References
 --------------------
 
-* [SSO With JBoss EAP](https://access.redhat.com/documentation/en-us/red_hat_jboss_enterprise_application_platform/8-beta/html-single/using_single_sign-on_with_jboss_eap/index#doc-wrapper)
-* [Red Hat build of Keycloak Documentation](https://access.redhat.com/documentation/en-us/red_hat_build_of_keycloak/22.0/)
+* [SSO With JBoss EAP](https://docs.redhat.com/en/documentation/red_hat_jboss_enterprise_application_platform/8.0/html-single/using_single_sign-on_with_jboss_eap/index)
+* [Red Hat build of Keycloak Documentation](https://access.redhat.com/documentation/en-us/red_hat_build_of_keycloak/24.0/)

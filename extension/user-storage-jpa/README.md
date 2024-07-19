@@ -21,7 +21,7 @@ runtime. Before using this example, you should probably read the User Storage SP
 System Requirements
 -------------------
 
-You need to have _Red Hat build of Keycloak_ running. It is recommended to use _Red Hat build of Keycloak_ 22 or later.
+You need to have _Red Hat build of Keycloak_ running. It is recommended to use _Red Hat build of Keycloak_ 24 or later.
 
 All you need to build this project is Java 17 (Java SDK 17) or later and Maven 3.6.3 or later.
 
