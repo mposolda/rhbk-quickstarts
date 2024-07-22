@@ -175,11 +175,11 @@
                 </property>
             </activation>
             <properties>
-                <version.wildfly>28.0.1.Final</version.wildfly>
+                <version.wildfly>30.0.0.Final</version.wildfly>
                 <version.jakarta.ws.rs-api>3.1.0</version.jakarta.ws.rs-api>
                 <arquillian-graphene.version>2.5.4</arquillian-graphene.version>
                 <version.wildfly.arquillian.container>4.0.0.Alpha6</version.wildfly.arquillian.container>
-                <arquillian-bom.version>1.7.0.Alpha14</arquillian-bom.version>
+                <arquillian-bom.version>1.7.1.Final</arquillian-bom.version>
             </properties>
             <modules>
                 <module>jakarta/servlet-authz-client</module>
@@ -364,10 +364,10 @@
                 </property>
             </activation>
             <properties>
-                <version.wildfly>28.0.1.Final</version.wildfly>
+                <version.wildfly>30.0.0.Final</version.wildfly>
                 <version.jakarta.ws.rs-api>3.1.0</version.jakarta.ws.rs-api>
                 <arquillian-graphene.version>2.5.4</arquillian-graphene.version>
-                <arquillian-bom.version>1.7.0.Alpha14</arquillian-bom.version>
+                <arquillian-bom.version>1.7.1.Final</arquillian-bom.version>
                 <version.jackson>2.14.2</version.jackson>
                 <version.wildfly.arquillian.container>4.0.0.Alpha6</version.wildfly.arquillian.container>
             </properties>
