@@ -15,6 +15,7 @@ fi
 
 # JS quickstart
 npm i @keycloak/keycloak-admin-client@$NPM_ADMIN_CLIENT --prefix js/spa
+npm i keycloak-js@$NPM_ADMIN_CLIENT --prefix js/spa
 
 # NodeJS quickstart
 npm i @keycloak/keycloak-admin-client@$NPM_ADMIN_CLIENT --prefix nodejs/resource-server
